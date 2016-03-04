@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.0.15/css/bulma.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body>
+  <section class="hero is-medium is-primary is bold">
+  <div class="hero-content">
+    <div class="container">
+      <h1 class="title">
+        Postcards
+      </h1>
+      <h2 class="subtitle">
+        Easily post "cards" to a website. Built using Express.js, Handlebars, and Bulma for styling.
+      </h2>
+      <p> Make a card here: <button onclick="location.href='http://localhost:1337/add'">
+     Add Card</button></p>
+    </div>
+  </div>
+  </section>
+  <section>
+  <div class="container">
+    <div class="content is-centered">
+      {{{body}}}
+    </div>
+  </div>
+  </section>
+  <section>
+    <footer class="footer">
+    <div class="container">
+      <div class="content is-centered">
+        <p>
+          <strong>Postcards</strong> by <a href="http://cfinefield.me">Chris Finefield</a>. The source code is licensed
+          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. View on Github<a class="icon" href="https://github.com/cfinefield/postcards">
+          <i class="fa fa-github"></i>
+          </a>
+        </p>
+      </div>
+    </div>
+    </footer>
+  </section>
+</body>
+</html>
