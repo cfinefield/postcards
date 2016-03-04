@@ -1,0 +1,22 @@
+{
+  "name": "postcards",
+  "version": "1.0.0",
+  "description": "Chris Finefield",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cfinefield/postcards.git"
+  },
+  "author": "Chris Finefield",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cfinefield/postcards/issues"
+  },
+  "homepage": "https://github.com/cfinefield/postcards",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
